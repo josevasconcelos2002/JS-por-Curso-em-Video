@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1 - Condições</title>
+    <style>
+        body {
+
+            background: grey;
+            margin-top: 30px;
+            color: black;
+
+        }
+
+        header {
+
+            background: aqua;
+            color:rgb(60, 60, 156);
+
+        }
+
+        input {
+
+            margin-top: 20px;
+
+        }
+
+        div#res {
+
+            margin-top: 20px;
+
+        }
+    </style>
+    <header>
+        <h1><strong>SISTEMA DE MULTAS</strong></h1>
+
+    </header>
+</head>
+<body>
+    
+    <input type="number" name="vel" id="vel">
+    <input type="button" value="verfificar" onclick="verificar()">
+    <div id="res"><strong>Resultado:</strong></div>
+    <script>
+        addEventListener("click",verificar);
+        var vel = window.document.getElementById("vel");
+        var velocidade = Number(vel.value);
+        function verificar() {
+        
+            var a = window.document.getElementById("res");
+            if(velocidade>50) {
+
+                a.innerText("Vais ser multado :)");
+
+            }
+            else {
+
+                a.innerText("Que pena, vou-te multar para a próxima... :(");
+
+            }
+        }
+
+
+
+
+
+
+// 20:21
+
+
+
+
+
+    /* Filtro
+
+        if(condição)   {
+
+            bloco de código;   executado quando a condição dá True
+
+        }
+
+        condição simples...   Se for false, nada acontece     
+
+
+
+
+
+        if(condição)   {
+
+            bloco de código;   executado quando a condição dá True
+
+        }
+
+
+        else {
+
+            bloco de código;      executado quando a condição dá False
+
+        }
+
+
+
+
+
+    */
+
+    </script>
+
+</body>
+</html>
