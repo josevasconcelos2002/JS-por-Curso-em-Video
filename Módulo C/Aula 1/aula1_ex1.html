@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <header><strong>Estamos a iniciar o estudo de DOM!</strong></header>
+    <style>
+        header {
+
+            background-color: rgb(0, 134, 211);
+            color:beige;
+            font-family: Arial;
+            font-size: 30px;
+        }
+
+        body {
+
+            color: white;
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <br>
+    <h3>Vamos começar aqui a fazer experiências.</h3>
+   <p>Aqui vai o resultado</p>
+   <br>
+   <p>Estamos a aprender a usar o <strong>DOM</strong> em Javascript.</p>
+   <div id="msg">Clique em mim</div>
+   <br>
+   <br>
+   <script>
+   /*var n1 = window.prompt("Estás a aprender bem?");
+   var n2 = window.alert(`${n1}`); */
+
+    var p1 =window.document.getElementsByTagName("p")[0];    //primeiro parágro que vai aparecer
+    var p2 = window.document.write("Está escrito assim:  "  + p1.innerText);     //vai buscar o texto do p1 e escreve-o no documento
+    p1.style.color = 'blue';
+    var corpo = window.document.body;
+    corpo.style.background = 'grey';
+    corpo.style.color = 'black';
+    /*
+    var d = window.document.getElementById("msg");
+    d.innerText = "Estou à espera..."
+
+    var d = window.document.getElementsByName("msg")[0];   //na tag <div> teria que alterar de "id" para "name"
+    d.innerText = "Estou à espera..."
+
+    */
+
+    var d = window.document.querySelector("div#msg")     // quando é id usa-se o "#" , quando é classe, usa-se o "."
+    d.innerText = "Olá?";
+    d.style.color = "green";
+
+
+
+
+
+
+    /*
+
+    
+
+    O que é o DOM?
+
+    Document Object Model
+
+
+    Saber fazer a árvore DOM do site
+
+    raiz da árvore : window 
+
+
+
+    window : - location
+             - document
+             - history
+
+    document : html   
+    
+
+    html : - head       (html é parent de head)
+           - body       (head é child de html)
+
+    head : - meta
+           - title
+
+
+    body : - h3
+           - br
+           - p
+           - div
+
+    p : - strong 
+    
+    
+    
+    SELECIONAR ELEMENTOS POR:
+
+    Marca;
+    getElementsByTagName()
+
+
+    ID;
+    getElementById()
+
+
+    Nome;
+    getElementsByName()
+
+
+    Classe;
+    getElementsByClassName()
+
+
+    Seletor;
+    querySelector()
+    
+    
+    */
+
+
+   </script>
+</body>
+</html>

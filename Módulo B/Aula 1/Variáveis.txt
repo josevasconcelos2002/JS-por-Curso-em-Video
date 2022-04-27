@@ -1,0 +1,74 @@
+Variáveis 
+
+
+vaga a1 = carro1   (vaga a1 recebe carro1) 
+        a1 = carro 2 (retira o carro1 e recebe o carro2 ) 
+        a1 = null  (vazio) 	
+
+
+
+
+var n1 = 5
+
+var n2 = 8.5
+
+var n3 = 3 
+
+
+
+var s1 = "JavaScript"
+
+var s2 = "ahahaha"
+
+var s3 = 'asasa'
+
+var s4 = ´asas´
+
+
+node.js
+
+
+Abri vscode , abrir terminal "ctrl + shift + ç" 
+Escrever "node" 
+
+>var n1 = "5"
+
+"undefined"
+
+>n1
+
+'5'
+
+> typeof n1 
+
+'number'
+
+>.exit
+
+powershell : exit 
+
+
+
+
+
+Js não faz distinção no tipo de números (floats , ints ... ) 
+São todos "number"
+> podem ser "infinity"
+ou "NaN"
+
+
+
+String (conjunto de caracteres)
+
+
+Boolean
+
+
+
+Não precisamos definir o tipo da variável... tendo em conta o que ela vai recebendo, vai alterando o seu tipo
+
+
+
+
+
+

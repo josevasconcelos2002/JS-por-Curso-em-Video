@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+    <style>
+        body {
+            background-color: rgb(232, 223, 223);
+            font: normal, 30px, Arial;
+        }
+        h1 {
+            color: rgb(9, 173, 237);
+        }
+    </style>
+</head>
+<body>
+    <strong><h1>:)</h1></strong>
+    <script>
+        var nome = window.prompt("Qual é o seu nome?");
+        document.write(`<strong>Seja bem-vindo(a) ${nome}, o seu nome tem ${nome.length} letras</strong><br>`);  // escreve na página //
+        document.write(`O seu nome em maiúsculas é ${nome.toUpperCase()} e em minúsculas, ${nome.toLowerCase()}`);   
+        var preço = window.prompt("Quanto custa um pc?");
+        window.alert(" Um pc custa  " + preço.toLocaleString('pt', {style: 'currency', currency: 'EUR'} ))
+
+        /* 
+        > var n1 = 1545.5
+
+        > n1.toFixed(2)         //2 casas decimais //
+        '1545.50'
+
+        > n1.toFixed(2).replace('.' , ',')
+        '1545,50'
+
+        > n1.toLocaleString('pt', {style: 'currency', currency: 'EUR'})  //currency (dinheiro) //
+        ' eur(símbolo) 1.545,50'
+
+        */
+    </script>
+</body>
+</html>

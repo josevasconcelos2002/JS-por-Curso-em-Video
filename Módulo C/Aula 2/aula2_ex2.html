@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma de números</title>
+    <style>
+
+        h1#titulo {
+
+            color: rgb(104, 4, 218);
+            height: 80px;
+            width: 600px;
+            text-align: center;
+            line-height: 80px;
+
+        }
+
+        input {
+
+            color: rgb(34, 19, 64);
+            align-content: center;
+            font: normal 18pt Arial;
+            width: 100px;
+        }
+
+        body {
+
+            font: normal 18pt Arial;
+        }
+
+        div#res {
+
+            margin-top: ;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id = "titulo"><strong>Soma de valores</strong></h1>
+    <br>
+    <br>
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="somar" onclick="somar()">
+    <br>
+    <br>
+    <div id="res"></div>
+    
+    <script>
+
+        var a = window.document.getElementById("titulo");
+        a.style.background = "aqua";
+
+        addEventListener("click",somar);
+
+        function somar() {
+
+            var tn1 = window.document.getElementById("txtn1");
+            var tn2 = window.document.getElementById("txtn2");
+            var res = window.document.getElementById("res");
+            var n1 = Number(tn1.value);   //tn1 é texto
+            var n2 = Number(tn2.value);
+            var soma1 = n1 + n2 
+            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a ${soma1}`;
+        }
+
+    </script>
+
+</body>
+</html>

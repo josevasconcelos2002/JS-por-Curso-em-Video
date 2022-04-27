@@ -1,0 +1,19 @@
+O que faz o JS?
+
+
+- Praticamente tudo;      Tanto do lado do cliente como do servidor
+
+
+Website :     HTML, CSS, JS
+
+
+ Curso mais fcocado no lado do cliente
+ 
+ 
+ HTML : conteudo
+  CSS : organizar , design
+  
+ Javascript : interação
+ 
+ 
+ 

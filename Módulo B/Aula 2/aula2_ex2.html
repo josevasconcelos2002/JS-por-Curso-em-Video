@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">  <!-- comentário HTML-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula nº 2</title>
+    <style>
+        h1 {
+            color: rgb(34, 34, 226);
+        }
+        header {        /* comentário CSS*/
+            background-color: grey;
+        }
+        a {
+            font-size: large;
+        }
+    </style>
+    <h1><header>Cabeçalho   <a href="https://www.embuscadesabedoria.com">link</a></a></header></h1>
+</head>
+<body>
+    <h4>aaaaaaa</h4>
+    <script>
+       var num1 = Number(window.prompt("Insira o 1º número"));  // window.prompt recebe uma string, sempre, por isso que ao usarmos o + , o js concatena as strings//
+       var num2 = Number(window.prompt("Insira o 2º número"));  //string//  //temos que fazer a conversão de tipo (string -> number)//
+       var resultado = num1 + num2 ;                            // num1 + num2  não funciona , pois concatena os dois números //
+       window.alert(`A soma entre ${num1} e ${num2} é  ${String(resultado)}` );
+ 
+       // string + string = concatenação //
+       // number + number =  soma // 
+       //Number(n)   converte string para um number, que o js vai identificar se é float ou int //
+       // String(n) -> converte number to string //
+       //n.toString() -> "  " //
+
+
+        /* var s = "JavaScript";
+          
+        > "Estou a aprender" + s 
+         'Estou a aprender JavaScript'   // concatenação
+
+        > `Estou a aprender ${s}`     
+         'Estou a aprender JavaScript'  //usa template script
+        
+
+        > s.length   quantos caracteres tem a string (só funciona com string's)
+         10
+        
+
+        > s.toUpperCase()
+         'JAVASCRIPT'
+
+
+        > s.toLowerCase()
+         'javascript'
+
+         
+          */
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+Qual a diferença entre Java e Javascript? 
+
+História do Javascript
+
+
+
+
+
+
+1970 (antes um pouco) :  internet ; Darpa ; Arpanet ( rede de dados entre computadores) ... Internet ... Guerra fria 
+
+
+
+1993 : HTML ; http ; World Wide Web ; CERN  (pesquisa nuclear) ; mosaike (navegador)
+
+
+
+1994 : Netscape (navegador); Modzilla(navegador)  netscape tmb era uma empresa 
+
+
+
+
+1995 :  Linguagem Moka (café)  para dar mais interatividade; por volta desta altura, criou-se o Java(linguagem do futuro)
+ Mais tarde  chamava-se "livescript, por conta da fama do nome java , chamou-se "javascript"
+ 
+
+Ambas são baseadas em c , por isso que o if são iguais
+
+
+Internet explorer perto de 1995
+
+Microsoft  cria a linguagem jotascript (praticamente igual a javascript)
+
+
+
+
+
+1997:
+Netscape padroniza  a linguagem na empresa europeia "ecma" : linguagem "ecmascript"
+
+
+
+
+
+2002: 
+
+Netscape faliu porque a microsoft colocou o nabegador internet explorrer como predefinido no sistema operacional
+
+
+Fundação Mozilla  : Fiirefox
+
+
+
+
+2008 : Google Chrome
+
+
+
+
+2009 : v8 motor que roda js (chakra) open-source
+
+
+
+
+2010 :  node.js -> motor que roda js não só no google chrome mas noutros navegadores
+
+
+
+
+
+ECMAScript
+
+
+1997: 1.0
+
+
+1998 :  2.0
+
+
+
+1999: 3.0
+
+
+
+2009: ES5
+
+
+
+2015: ES6
+
+
+2016: ES2016
+
+
+2017: ES2017
+
+
+2018:ES2018
+
