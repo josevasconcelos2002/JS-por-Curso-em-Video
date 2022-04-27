@@ -1,0 +1,14 @@
+Condições em JS
+
+if 
+
+if.. else
+
+else if
+
+switch case 
+
+
+
+
+aulas de exercícios propostos 
