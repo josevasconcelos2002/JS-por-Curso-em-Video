@@ -7,13 +7,14 @@
     <title>Soma de números</title>
     <style>
 
-        h1#titulo {
+        h1.titulo {
 
             color: rgb(104, 4, 218);
             height: 80px;
             width: 600px;
             text-align: center;
             line-height: 80px;
+            background: aqua;
 
         }
 
@@ -22,7 +23,7 @@
             color: rgb(34, 19, 64);
             align-content: center;
             font: normal 18pt Arial;
-            width: 100px;
+            width: 200px;
         }
 
         body {
@@ -33,41 +34,55 @@
 
         div#res {
 
-            margin-top: ;
+            margin-top: 20px;
 
+        }
+
+        div#res1 {
+
+            margin-top: 20px;
         }
 
     </style>
 </head>
 <body>
-    <h1 id = "titulo"><strong>Soma de valores</strong></h1>
-    <br>
-    <br>
+    <h1 class = "titulo"><strong>Soma de valores</strong></h1>
     <input type="number" name="txtn1" id="txtn1"> +
     <input type="number" name="txtn2" id="txtn2">
     <input type="button" value="somar" onclick="somar()">
-    <br>
-    <br>
     <div id="res"></div>
-    <br>
-    <h1 id = "titulo1"><strong>Multiplicação de valores</strong></h1>
+    <h1 class = "titulo"><strong>Multiplicação de valores</strong></h1>
+    <input type="number" name="txtn3" id="txtn3"> x
+    <input type="number" name="txtn4" id="txtn4">
+    <input type="button" value="multiplicar" onlick="mult()">
+    <div id="res1"></div>
     
     <script>
 
-        var a = window.document.getElementById("titulo");
-        a.style.background = "aqua";
-
         addEventListener("click",somar);
+        addEventListener("click",mult);
 
         function somar() {
 
             var tn1 = window.document.getElementById("txtn1");
             var tn2 = window.document.getElementById("txtn2");
             var res = window.document.getElementById("res");
-            var n1 = Number(tn1.value);   //tn1 é texto
+            var n1 = Number(tn1.value);   //tn1 é texto, logo precisamos de converter para Number
             var n2 = Number(tn2.value);
             var soma1 = n1 + n2 
             res.innerHTML = `A soma entre ${n1} e ${n2} é igual a ${soma1}`;
+        }
+
+        function mult() {
+
+            var tn3 = window.document.getElementById("txtn3");
+            var tn4 = window.document.getElementById("txtn4");
+            var res = window.document.getElementById("res1");
+            var n3 = Number(tn3.value);
+            var n4 = Number(tn4.value);
+            var mult = n3 * n4;
+            res.innerHTML = `A multiplicação entre ${n3} e ${n4} é igual a ${mult}`; 
+
         }
 
     </script>
